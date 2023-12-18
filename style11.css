@@ -1,0 +1,30 @@
+    /* Общие стили */
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      display: flex;
+    }
+    .column {
+      flex: 1;
+      padding: 20px;
+    }
+    
+    /* Стили для каждой колонки */
+    .left-column {
+      background-color: #f5f5f5;
+    }
+    .center-column {
+      background-color: #e0e0e0;
+    }
+    .right-column {
+      background-color: #d5d5d5;
+    }
+    
+    /* Дополнительные стили */
+    h1 {
+      text-align: center;
+      margin: 0;
+      padding: 10px;
+    }
